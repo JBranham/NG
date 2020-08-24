@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="963900a7-e5e2-40f0-9202-537cd02ba75d"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="NG_Demo">
+	</codegen>
+	<variables>
+		<var
+		id="51fb4a1a-4250-4d60-8930-65cf43ecdc92"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\jbranham\Desktop\VipV1.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="98544425-021c-462f-9ebb-7a6ae929d5a4"
+	name="NG_DemoRepository"
+	relativepath="NG_DemoRepository.rxrep">
+		<codegen
+		classname="NG_DemoRepository"
+		namespace="NG_Demo">
+		</codegen>
+		<rootfolder
+		id="a62bc3c8-5e8d-4914-8fab-2636add9488c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

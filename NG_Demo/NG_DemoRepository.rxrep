@@ -1,0 +1,224 @@
+﻿<repository
+id="98544425-021c-462f-9ebb-7a6ae929d5a4"
+name="NG_DemoRepository">
+	<codegen
+	classname="NG_DemoRepository"
+	namespace="NG_Demo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="a62bc3c8-5e8d-4914-8fab-2636add9488c"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="32ff32bd-1f2f-4b96-b134-8fc754fc0880"
+		isrooted="True"
+		name="FormVipApplication"
+		refpath="/form[@controlname='formVipApplication']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="cb1b23c1-b5c6-4eac-8b73-ce1743dbce24"
+			name="FName"
+			refimgid="7f51be66-5645-45de-ba4e-a3fad4a176f0"
+			refpath="/form[@controlname='formVipApplication']/text[@controlname='tbFirstName']/text[@accessiblename='First Name:']"
+			searchtimeout="60000ms">
+				/form[@controlname='formVipApplication']/?/?/text[@accessiblename='First Name:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="38be0a25-39d3-46ac-bae6-5494437d7b6f"
+			name="LastName"
+			refimgid="683802fc-7736-44a9-b736-3ac2ec38a8cb"
+			refpath="/form[@controlname='formVipApplication']/text[@controlname='tbLastName']/text[@accessiblename='Last Name:']"
+			searchtimeout="60000ms">
+				/form[@controlname='formVipApplication']/?/?/text[@accessiblename='Last Name:']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="a306aca4-2132-4349-8711-5a48c312e4c6"
+			name="Music"
+			refimgid="9608757f-b937-445f-9127-8692cca3986b"
+			refpath="/form[@controlname='formVipApplication']/list/list/listitem[@accessiblename='Music']"
+			searchtimeout="60000ms">
+				/form[@controlname='formVipApplication']//listitem[@accessiblename='Music']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="efa97b0b-ca2c-4849-8df7-62e6c672af5d"
+			name="Movie"
+			refimgid="262d4950-d1d3-44c4-b233-5e63aeeb1ac2"
+			refpath="/form[@controlname='formVipApplication']/list/list/listitem[@accessiblename='Movie']"
+			searchtimeout="60000ms">
+				/form[@controlname='formVipApplication']//listitem[@accessiblename='Movie']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="8cc0e916-9ece-4c3b-ac93-89625e0995be"
+			name="RbMale"
+			refimgid="dd880464-eba4-4af8-a0ce-0ec123bd4a55"
+			refpath="/form[@controlname='formVipApplication']/container/radiobutton[@controlname='rbMale']"
+			searchtimeout="60000ms">
+				/form[@controlname='formVipApplication']/?/?/radiobutton[@controlname='rbMale']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="648f0c6a-8165-4a40-b12f-bc8723f14c4e"
+			name="BtAdd"
+			refimgid="3cce84fd-cb60-4149-a8e0-97e81291747b"
+			refpath="/form[@controlname='formVipApplication']/button[@controlname='btAdd']"
+			searchtimeout="60000ms">
+				/form[@controlname='formVipApplication']/button[@controlname='btAdd']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="bb907601-c8d9-4dcc-9d7e-f53a932856b0"
+			name="VIPCount1"
+			refimgid="e32388be-42aa-4181-b0dc-9834a62e4c15"
+			refpath="/form[@controlname='formVipApplication']/statusbar[@controlname='statusStrip1']/text[@accessiblename='VIP count: 1']"
+			searchtimeout="60000ms">
+				/form[@controlname='formVipApplication']/?/?/text[@accessiblename='VIP count: 1']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="d835f7c3-129a-4ef9-b6f7-cf1a4784182a"
+			name="BtClear"
+			refimgid="cc3fcc35-d544-466b-bc42-856a861a13ae"
+			refpath="/form[@controlname='formVipApplication']/button[@controlname='btClear']"
+			searchtimeout="60000ms">
+				/form[@controlname='formVipApplication']/button[@controlname='btClear']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="a4a0884b-1176-472d-9aaf-9af8a69c3e85"
+			name="VIPCount0"
+			refimgid="6fda4aab-425c-4612-a160-df0e12e8807c"
+			refpath="/form[@controlname='formVipApplication']/statusbar[@controlname='statusStrip1']/text[@accessiblename='VIP count: 0']"
+			searchtimeout="60000ms">
+				/form[@controlname='formVipApplication']/?/?/text[@accessiblename='VIP count: 0']
+			</item>
+			<basepath>
+				/form[@controlname='formVipApplication']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="33c0e106-5622-491d-b674-7a0b195c47f7"
+		isrooted="True"
+		name="RanorexVIPDatabaseTestWebApplicatio"
+		refpath="/dom[@domain='www.ranorex.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="3e316916-9446-4669-a536-3c7078b18a4c"
+			name="FirstName"
+			refimgid="357bff91-224e-4934-bf8f-4e0d46e609a5"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'FirstName']"
+			searchtimeout="60000ms">
+				/dom[@domain='www.ranorex.com']//input[#'FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="23dd47e1-b734-42bb-8c54-f862310ece7a"
+			name="LastName"
+			refimgid="5b767757-5c6a-409a-b2e5-d283e7c211a5"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'LastName']"
+			searchtimeout="60000ms">
+				/dom[@domain='www.ranorex.com']//input[#'LastName']
+			</item>
+			<item
+			addcaps="unknown,webelement,optiontag"
+			capname="optiontag"
+			id="50a12c8e-d4e1-4bbc-81df-a9e4cffdca30"
+			name="Movie"
+			refimgid="c866c699-6687-4e52-a75d-bc35800cf76b"
+			refpath="/dom[@domain='www.ranorex.com']//select[#'Category']/option[@value='Movie']"
+			searchtimeout="60000ms">
+				/dom[@domain='www.ranorex.com']//select[#'Category']/option[@value='Movie']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0e9c9752-067e-4958-b83d-7fbc37971bf5"
+			name="Gender"
+			refimgid="e53506ca-54d7-4608-a4a6-ca17fc304590"
+			refpath="/dom[@domain='www.ranorex.com']//td[#'gender']/table/tbody/tr[3]/td/input[@id='Gender']"
+			searchtimeout="60000ms">
+				/dom[@domain='www.ranorex.com']//td[#'gender']//input[@name='Gender' and @type='radio' and @value='male']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="433934f1-b81e-4e02-a2a6-fd400a588de3"
+			name="InputTagAdd"
+			refimgid="e9e355d1-de43-4e1d-90a0-ba776d933275"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'Add']"
+			searchtimeout="60000ms">
+				/dom[@domain='www.ranorex.com']//input[#'Add']
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="ba337c2c-928a-43b4-9cb5-f8cc56fe1cd8"
+			name="Count"
+			refimgid="9d0cd2ab-9990-4a02-8d10-af5738912c8a"
+			refpath="/dom[@domain='www.ranorex.com']//td[#'count']"
+			searchtimeout="60000ms">
+				/dom[@domain='www.ranorex.com']//td[#'count']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

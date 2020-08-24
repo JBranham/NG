@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8da70252-1e56-4360-94bc-37248584ec7e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateOneUser"
+	namespace="NG_Demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="True"
+		searchpropertyid="ee1fbf89-2a0d-424c-821c-ef5d69f38f44">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bb907601-c8d9-4dcc-9d7e-f53a932856b0"
+			sourcename="ElementTree">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="513,714,70,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						VIP count: 1
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						VIP count: 1
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						VIP count: 1
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						StaticText
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ReadOnly
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='formVipApplication']/?/?/text[@accessiblename='VIP count: 1']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="fd1fe01e-890c-476e-827f-d18fc2609ecf">
+				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
+KuV5x3x1/GrEZLRqx6kA0wP/2Q==
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				VIP count: 99
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="98544425-021c-462f-9ebb-7a6ae929d5a4"
+	name="NG_DemoRepository"
+	relativepath="NG_DemoRepository.rxrep">
+		<codegen
+		classname="NG_DemoRepository"
+		namespace="NG_Demo">
+		</codegen>
+		<rootfolder
+		id="a62bc3c8-5e8d-4914-8fab-2636add9488c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateOneUser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

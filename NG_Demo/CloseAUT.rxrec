@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e999353e-e92a-4665-8ed8-ab1af9141dc0"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="NG_Demo">
+	</codegen>
+	<variables>
+		<var
+		id="f6411e1c-9a67-45a3-815a-83b2fa2cfa34"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="c1d29a90-a974-4d74-a7ab-23059da9456c">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="98544425-021c-462f-9ebb-7a6ae929d5a4"
+	name="NG_DemoRepository"
+	relativepath="NG_DemoRepository.rxrep">
+		<codegen
+		classname="NG_DemoRepository"
+		namespace="NG_Demo">
+		</codegen>
+		<rootfolder
+		id="a62bc3c8-5e8d-4914-8fab-2636add9488c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

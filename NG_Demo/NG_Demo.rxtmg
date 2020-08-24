@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="NG_Demo"
+      id="0c6636d7-7f17-4515-8707-f824ec22a826"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="NG_Demo"
+      id="0c6636d7-7f17-4515-8707-f824ec22a826"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
